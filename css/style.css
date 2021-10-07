@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav_title{
+    color: white;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.nav_list{
+    display: flex;
+}
+
+.nav_link{
+    font-size: 18px;
+    font-weight:bold;
+    color: white;
+    margin: 20px;
+    transition: .3s;
+}
+
+.nav_link:hover{
+    color: green;
+}
+
+.nav_wrapper{
+    transition: .3s;
+    color: white;
+    border: 1px solid green;
+    padding: 10px 20px;
+}
+
+.nav_wrapper:hover{
+    background-color:green;
+}
+
+
+
+
+/* Main section */
+
+.main .container{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_title{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.main_text{
+    color: darkgray;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.main_subtext, .main_form{
+    width: 40%;
+}
+
+.main_form{
+    position: relative;
+}
+
+.main_photo{
+    width: 500px;
+}
+
+
+
+.main_input{
+    position: absolute;
+    bottom: 22px;
+    left: 50px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius:10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+form .label input{
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid darkgray;
+    outline: none;
+}
+
+form .label select{
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.input_link{
+    text-align:center;
+    margin-top:30px;
+    border: 1px solid green;
+    padding: 10px 20px;
+    color: black;
+    transition: .3s;
+}
+
+.input_link:hover{
+    background-color:green;
+    color:white;
+}
+
+/* WOW SECTION*/
+
+.wow{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.why_omega{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.watch{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.pc_img{
+    background-image: url("/Lesson_17/img/Rectangle.png");
+    width: 1200px;
+    height: 700px;
+}
+
+.sss{
+    width: 25px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.smail_img{
+    margin-top: 50px;
+}
+
+.black{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    left: 75px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.black:hover{
+    background-color: #aba;
+}
+
+.h1{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.unique{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.mlp{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    left: 500px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.mlp:hover{
+    background-color: #aba;
+}
+
+.fst{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    left: 940px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.fst:hover{
+    background-color: #aba;
+}
+
+.sus{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    bottom: -450px;
+    right: 870px;
+    border-radius: 20px;
+    transition: 0.3s;   
+}
+
+.sus:hover{
+    background-color: #aba;
+}
+
+.rdn{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    bottom: -450px;
+    left: 500px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.rdn:hover{
+    background-color: #aba;
+}
+
+.ssss{
+    width: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.h11{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.h111{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.lup{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    bottom: -450px;
+    left: 950px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+    /*dadee*/
+
+.lup:hover{
+    background-color: #aba;
+}
+
+.contener_717{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Drag_text{
+    margin-top: 600px;
+    display: flex;
+}
+
+.loptop_girl{
+    width: 500px;
+}
+
+.dand{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.creat{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contener_818{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.eve{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 250px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.ccl{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.dvaynoy_photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.chas_img{
+    width: 550px;
+    height: 900px;
+}
+
+.laptoop_boys{
+    width: 800px;
+    height: 900px;
+    margin-left: -80px;
+}
+
+ /*50K*/
+
+
+.ellikk_contener{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.uau{
+    display: flex;
+    position: relative;
+}
+
+.this{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.content{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.gba{
+    margin-top: 80px;
+}
+
+.gbss{
+    color: white;
+    border: 1px solid darkorange;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.gbss:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+.qizla_bolla_photos{
+    width: 600px;
+    margin-right: -150px;
+}
+
+.asked{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.smaill_askde{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.text_wgbyq{
+    display: flexx;
+    position: relative;
+}
+
+.wg{
+    width: 600px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.byq{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.crc{
+    color: white;
+    font-size: smaller;
+}
+
+.wgs{
+    position: absolute;
+    left: 600px;
+    bottom: 140px;
+}
+
+.xasan{
+    display: flex;
+}
+
+.byqq{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wgdg{   
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.crcc{
+    color: white;
+    font-size: smaller;
+
+}
+
+.textli_link{
+    color: white;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.shncha_link{
+    color: tomato;
+    transition: 0.3s;
+}
+
+.shncha_link:hover{
+    color: green;
+}
+
+/*save_tones*/
+
+.contner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bmt{
+    display: flex;
+    margin-top: 200px;
+}
+
+.stof{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.adm{
+    color: white;
+    padding:20px;
+    width: 200px;
+    text-align: center;
+    margin-top: 60px;
+    border: 1px solid tomato;
+}
+
+/*footer*/
+
+.contener{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: #F2F2F2;
+    height: 200px;
+}
+
+.footer_iteam{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hammasni_ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.foter_list{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.title_omega{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.link{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    transition: 0.3s;
+
+}
+
+.link:hover{
+    color: tomato;
+}
+
+.all_right{
+    margin-top: 45px;
+    margin-left: 25px;
+}
